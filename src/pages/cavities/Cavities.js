@@ -12,6 +12,9 @@ function Cavities() {
         Amet consequuntur deleniti distinctio ea eveniet id, labore magni neque obcaecati praesentium quibusdam quidem, quod, repellat sequi ut.
         Blanditiis, reiciendis.
       </p>
+      <button type="button" className="appointment-button">
+        Maak direct uw afspraak!
+      </button>
       <p className="content-container-col3">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi corporis cumque exercitationem minus optio, perferendis quos sunt.
         Accusamus ad aliquid autem consequatur, eos ex excepturi illum impedit maiores molestias nam quod rem, voluptatibus. Mollitia, quidem voluptas?

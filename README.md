@@ -34,4 +34,9 @@ Onderstaande stappen beschrijven op globale wijze wat er moet gebeuren. Schroom 
 4. Check vervolgens of dit werkt door in de adresbalk de url aan te passen. Veranderen de pagina's?
 5. Op de homepagina en appointmentspagina staat onderaan een paragraaf met het zinnetje: _'Leer hier meer over [onderwerp]'_. Zorg ervoor dat het woord 'hier' klikbaar wordt en de gebruiker doorstuurt naar de juiste pagina.
 6. Zorg ervoor dat de menu-items in `Navigation.js` klikbaar worden en de gebruiker doorsturen naar de juiste pagina;
-7. Zorg er tenslotte voor dat het actieve menu-item wit onderstreept wordt, door twee CSS classes te maken in het bijbehorende `Navigation.css` document en deze op de juiste manier door te geven aan het `NavLink`-component van React Router.
+7. Zorg ervoor dat het actieve menu-item wit onderstreept wordt, door twee CSS classes te maken in het bijbehorende `Navigation.css` document en deze op de juiste manier door te geven aan het `NavLink`-component van React Router.
+8. Maak ten slotte de button op de cavitiespagina functioneel, door de volgende acties te ondernemen:
+   - Maak een eigen, externe `clickHandler`-functie;
+   - Zorg ervoor dat deze functie wordt aangeroepen wanneer er op de button geklikt wordt;
+   - Zorg ervoor dat wanneer deze functie wordt aangeroepen, er "We gaan direct door naar de afspraken pagina!" wordt gelogd in de console;
+   - Stuur de gebruiker daarna door naar de appointmentspagina;
